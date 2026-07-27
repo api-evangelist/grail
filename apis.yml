@@ -1,8 +1,17 @@
 aid: grail
 name: Grail
-description: 'Grail is a company surfaced as a portfolio company of gv, sv-angel and added to the API
-  Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  GRAIL, Inc. is a healthcare company headquartered in Menlo Park, California,
+  focused on detecting cancer early, when it can be cured. Its flagship product,
+  the Galleri multi-cancer early detection (MCED) test, uses a single blood draw
+  and methylation-based genomic sequencing to screen for a signal shared across
+  more than 50 types of cancer, many of which lack any recommended screening
+  today. GRAIL runs large clinical programs including the PATHFINDER, PATHFINDER 2,
+  and NHS-Galleri studies, and distributes Galleri through health plans, employers,
+  and partners such as Quest Diagnostics and Junction. GRAIL is a portfolio company
+  of investors including GV and SV Angel. It does not publish a first-party public
+  developer API; programmatic access to Galleri ordering is offered through
+  third-party diagnostic infrastructure partners.
 url: https://raw.githubusercontent.com/api-evangelist/grail/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +20,30 @@ x-backed-by:
 - sv-angel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://grail.com/wp-content/uploads/2021/03/GRAIL-logo.png
 tags:
 - Company
 - Life Sciences
+- Healthcare
+- Cancer Detection
+- Diagnostics
+- Genomics
+- Multi-Cancer Early Detection
+- Bioinformatics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +52,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://grail.com
+  url: https://grail.com/
+- type: GitHubOrganization
+  url: https://github.com/grailbio
+- type: Blog
+  url: https://grail.com/news-center/
+- type: Support
+  url: https://grail.com/get-in-touch/
+- type: TermsOfService
+  url: https://grail.com/terms/
+- type: PrivacyPolicy
+  url: https://grail.com/privacy-notices/
+- type: DomainSecurity
+  url: security/grail-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
